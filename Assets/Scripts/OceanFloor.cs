@@ -2,63 +2,107 @@ using UnityEngine;
 
 public class OceanFloor : MonoBehaviour
 {
-    [Header("Ссылки на объекты")]
-    public Terrain terrain;                 // Ссылка на Terrain
-    public GameObject waterPlane;           // Водная плоскость (Plane)
-    public GameObject[] objectsOnTerrain;   // Объекты, которые нужно разместить на дне
+    public Terrain terrain;
+    public GameObject waterPlane;
+    public GameObject[] objectsOnTerrain;
 
-    [Header("Настройки")]
-    public float waterHeight = 2f;          // Высота расположения воды над Terrain
-    public float waterPlaneDefaultSize = 10f;  // Размер Plane по умолчанию
+    public Camera mainCamera;
+
+    public ParticleSystem bubbleParticlesPrefab;  // Префаб системы частиц пузырей
+
+    // Константная высота плоскости воды по Y
+    public float waterPlaneHeight = 2f;
+
+    public float waterPlaneDefaultSize = 10f; // размер Plane по умолчанию (10x10)
+
+    // Параметры для пузырей
+    public float bubbleDistanceFromCamera = 10f;   // Расстояние перед камерой, где будут пузырьки
+    public float bubbleHeightAboveTerrain = 2f;    // Высота пузырьков над Terrain
+
+    private ParticleSystem bubbleParticlesInstance;
 
     void Start()
     {
-        if (terrain == null)
+        if (terrain == null || waterPlane == null)
         {
-            Debug.LogError("Terrain не назначен!");
+            Debug.LogError("Terrain или Water Plane не назначены!");
             return;
         }
 
-        if (waterPlane == null)
+        if (mainCamera == null)
         {
-            Debug.LogError("Water Plane не назначена!");
+            Debug.LogError("Main Camera не назначена!");
             return;
         }
 
-        // Настраиваем позицию Terrain (по желанию можно фиксировать на 0,0,0)
-        terrain.transform.position = Vector3.zero;
+        if (bubbleParticlesPrefab == null)
+        {
+            Debug.LogWarning("Префаб пузырей не назначен — пузыри не будут созданы.");
+        }
 
-        // Получаем размеры Terrain
         TerrainData terrainData = terrain.terrainData;
+
         float terrainWidth = terrainData.size.x;
         float terrainLength = terrainData.size.z;
 
-        // Масштабируем Plane, чтобы покрыть Terrain
+        // Масштабируем Plane так, чтобы она покрывала Terrain по X и Z
         float scaleX = terrainWidth / waterPlaneDefaultSize;
         float scaleZ = terrainLength / waterPlaneDefaultSize;
-        waterPlane.transform.localScale = new Vector3(scaleX, 1, scaleZ);
 
-        // Рассчитываем центр Terrain (нижний левый угол + половина размера)
-        Vector3 terrainCenter = terrain.transform.position + new Vector3(terrainWidth / 2f, 0, terrainLength / 2f);
+        waterPlane.transform.localScale = new Vector3(scaleX, 1f, scaleZ);
 
-        // Позиционируем Plane по центру Terrain, на высоту waterHeight (относительно Terrain Y)
-        float waterY = terrain.transform.position.y + waterHeight;
-        waterPlane.transform.position = new Vector3(terrainCenter.x, waterY, terrainCenter.z);
+        // Позиция Terrain — нижний левый угол (в мире)
+        Vector3 terrainPos = terrain.transform.position;
 
-        // Позиционируем объекты на поверхности Terrain (направляем Y на высоту Terrain)
-        foreach (GameObject obj in objectsOnTerrain)
+        // Ставим Plane по центру Terrain, на фиксированной высоте waterPlaneHeight (относительно мира)
+        waterPlane.transform.position = new Vector3(
+            terrainPos.x + terrainWidth / 2f,
+            waterPlaneHeight,
+            terrainPos.z + terrainLength / 2f);
+
+        // Перемещаем и ставим объекты на поверхность Terrain по высоте
+        foreach (var obj in objectsOnTerrain)
         {
             if (obj == null) continue;
 
             Vector3 pos = obj.transform.position;
 
-            // Получаем высоту Terrain в XZ-позиции объекта
-            float terrainHeightAtPos = terrain.SampleHeight(pos) + terrain.transform.position.y;
+            // Получаем высоту Terrain под точкой X,Z (относительно Terrain transform.position)
+            float terrainHeightAtPos = terrain.SampleHeight(pos) + terrainPos.y;
 
-            // Устанавливаем объект на поверхность Terrain
+            // Обновляем позицию объекта - ставим на поверхность Terrain
             obj.transform.position = new Vector3(pos.x, terrainHeightAtPos, pos.z);
         }
 
-        Debug.Log("Подводная сцена успешно настроена!");
+        Debug.Log("Подводная сцена корректно настроена с учетом рельефа Terrain");
+
+        // Создаём систему пузырей
+        CreateBubbleParticles();
+    }
+
+    void CreateBubbleParticles()
+    {
+        if (bubbleParticlesPrefab == null)
+            return;
+
+        // Позиция камеры и направление её взгляда
+        Vector3 camPos = mainCamera.transform.position;
+        Vector3 camForward = mainCamera.transform.forward;
+
+        // Позиция для пузырей — чуть впереди камеры
+        Vector3 spawnPos = camPos + camForward * bubbleDistanceFromCamera;
+
+        // Получаем высоту Terrain под точкой spawnPos и добавляем offset по высоте
+        float terrainHeight = terrain.SampleHeight(spawnPos) + terrain.transform.position.y;
+        spawnPos.y = terrainHeight + bubbleHeightAboveTerrain;
+
+        // Создаём частицы
+        bubbleParticlesInstance = Instantiate(bubbleParticlesPrefab, spawnPos, Quaternion.identity);
+
+        // Если хотите, можно привязать к OceanFloor, чтобы удобно было удалять/отключать
+        bubbleParticlesInstance.transform.parent = this.transform;
+
+        // Запускаем систему частиц
+        bubbleParticlesInstance.Play();
     }
 }
