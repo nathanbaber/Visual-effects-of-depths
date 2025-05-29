@@ -1,0 +1,324 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.30f1 (b4360d7cdac4) revision 11810317'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'ru' Physical Memory: 7893 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.3.30f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+C:/Users/nasta/VisualEffectsOfDepths
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+55250
+Successfully changed project path to: C:/Users/nasta/VisualEffectsOfDepths
+C:/Users/nasta/VisualEffectsOfDepths
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [15452] Host "[IP] 26.93.114.81 [Port] 0 [Flags] 2 [Guid] 2244203257 [EditorId] 2244203257 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-R8GVPI6) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [15452] Host "[IP] 26.93.114.81 [Port] 0 [Flags] 2 [Guid] 2244203257 [EditorId] 2244203257 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-R8GVPI6) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 353.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.30f1 (b4360d7cdac4)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/nasta/VisualEffectsOfDepths/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3965 MB
+    Driver:   32.0.15.5599
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2021.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56720
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008121 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 122.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.479 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1481ms)
+		BeginReloadAssembly (485ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (4ms)
+		EndReloadAssembly (715ms)
+			LoadAssemblies (477ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (120ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (487ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (122ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (242ms)
+				ProcessInitializeOnLoadMethodAttributes (110ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.020172 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 159.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.957 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1958ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1680ms)
+			LoadAssemblies (199ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (408ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (93ms)
+			SetupLoadedEditorAssemblies (972ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (159ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (615ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5424 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (1.1 MB). Loaded Objects now: 5901.
+Memory consumption went from 302.2 MB to 301.1 MB.
+Total: 8.875000 ms (FindLiveObjects: 0.663800 ms CreateObjectMapping: 0.677900 ms MarkObjects: 6.299700 ms  DeleteObjects: 1.210000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 581561.997577 seconds.
+  path: Assets/Free/Stones/Textures/stones_normal.png
+  artifactKey: Guid(392ad43b7ad61f040aa99db72f5315f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Free/Stones/Textures/stones_normal.png using Guid(392ad43b7ad61f040aa99db72f5315f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '38f3fd2c40c5c459a997c98d64a1fbd4') in 0.494707 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 23.570957 seconds.
+  path: Assets/YughuesFreeSandMaterials/Textures/T_YFSM_02_n.tga
+  artifactKey: Guid(0894414c653764342adc30ca54e1de4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/YughuesFreeSandMaterials/Textures/T_YFSM_02_n.tga using Guid(0894414c653764342adc30ca54e1de4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd3cce833e3dd9df503a6f2bcdec3318') in 0.120845 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/YughuesFreeSandMaterials/Textures/T_YFSM_03_s.tga
+  artifactKey: Guid(bca4fedb5a424e040ba3f05ca9fca1fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/YughuesFreeSandMaterials/Textures/T_YFSM_03_s.tga using Guid(bca4fedb5a424e040ba3f05ca9fca1fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa90454b89ab1b0c772d2892f0aee80') in 0.031034 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/YughuesFreeSandMaterials/Textures/T_YFSM_12_d.tga
+  artifactKey: Guid(ab4e89361ca556e479cdf640b4aee5be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/YughuesFreeSandMaterials/Textures/T_YFSM_12_d.tga using Guid(ab4e89361ca556e479cdf640b4aee5be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5963e71d7a143c1e3b0a9f2cfc30d938') in 0.026913 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/YughuesFreeSandMaterials/Textures/T_YFSM_04_s.tga
+  artifactKey: Guid(78b2f6df4ff4d8d4cbc2526ed25e9049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/YughuesFreeSandMaterials/Textures/T_YFSM_04_s.tga using Guid(78b2f6df4ff4d8d4cbc2526ed25e9049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1490368de77817f7ebff8deb79252a01') in 0.028184 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/YughuesFreeSandMaterials/Textures/T_YFSM_09_n.tga
+  artifactKey: Guid(bfae690f782f49448bc585d11ff2f3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/YughuesFreeSandMaterials/Textures/T_YFSM_09_n.tga using Guid(bfae690f782f49448bc585d11ff2f3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77112c8e0112f983da665eb3fefddf5a') in 0.027127 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/YughuesFreeSandMaterials/Textures/T_YFSM_10_n.tga
+  artifactKey: Guid(c926ba019d895834b8c93df6c67db4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/YughuesFreeSandMaterials/Textures/T_YFSM_10_n.tga using Guid(c926ba019d895834b8c93df6c67db4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d1288ac6bbfe748e3355c0a908c66d') in 0.026664 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/YughuesFreeSandMaterials/Textures/T_YFSM_09_s.tga
+  artifactKey: Guid(4b3075fc987dcf9408769853536a023a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/YughuesFreeSandMaterials/Textures/T_YFSM_09_s.tga using Guid(4b3075fc987dcf9408769853536a023a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08910a6a175982b8cdfb82973f80ae16') in 0.027397 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/YughuesFreeSandMaterials/Textures/T_YFSM_08_d.tga
+  artifactKey: Guid(73dbe61bf9a43124f95e25d4d866bf95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/YughuesFreeSandMaterials/Textures/T_YFSM_08_d.tga using Guid(73dbe61bf9a43124f95e25d4d866bf95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '621c50b6fab5b68d432035e7ccb1c315') in 0.028423 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/YughuesFreeSandMaterials/Textures/T_YFSM_09_d.tga
+  artifactKey: Guid(debca93d6020c5c4b9b6d004ac5afad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/YughuesFreeSandMaterials/Textures/T_YFSM_09_d.tga using Guid(debca93d6020c5c4b9b6d004ac5afad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83b57e686e976d3d4e1e54ca802e7e3c') in 0.027877 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/YughuesFreeSandMaterials/Textures/T_YFSM_04_n.tga
+  artifactKey: Guid(22c36cbf2fb72a84db6affbf64f03f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/YughuesFreeSandMaterials/Textures/T_YFSM_04_n.tga using Guid(22c36cbf2fb72a84db6affbf64f03f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5c41abdff25a985055bf1972d74e6a1') in 0.030100 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 38.720203 seconds.
+  path: Assets/YughuesFreeSandMaterials/Materials/M_YFSM_Sand06.mat
+  artifactKey: Guid(d7e3cf47d90a5e644bec3ccaf0112d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/YughuesFreeSandMaterials/Materials/M_YFSM_Sand06.mat using Guid(d7e3cf47d90a5e644bec3ccaf0112d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9869e059605e213f5808061a9eccd9bb') in 0.360176 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 1.576616 seconds.
+  path: Assets/YughuesFreeSandMaterials/Materials/M_YFSM_Sand02.mat
+  artifactKey: Guid(b5ced793883eff9439dfb6d7848aead2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/YughuesFreeSandMaterials/Materials/M_YFSM_Sand02.mat using Guid(b5ced793883eff9439dfb6d7848aead2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56578dcd45b21df005da645239f14d47') in 0.020371 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/YughuesFreeSandMaterials/Materials/M_YFSM_Sand03.mat
+  artifactKey: Guid(fc3b1278c2f433e4c95790c289231b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/YughuesFreeSandMaterials/Materials/M_YFSM_Sand03.mat using Guid(fc3b1278c2f433e4c95790c289231b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf36484e38e3fd1470da9bcdad5a17d8') in 0.028383 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 181.293419 seconds.
+  path: Assets/YughuesFreeSandMaterials/Preview/P_Sphere_01.prefab
+  artifactKey: Guid(e997fa9f4e1bfd44882074e9e02cfe60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/YughuesFreeSandMaterials/Preview/P_Sphere_01.prefab using Guid(e997fa9f4e1bfd44882074e9e02cfe60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'accfe876e5ccf712243510903388ec98') in 0.043970 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/YughuesFreeSandMaterials/Preview/T_Checker.tga
+  artifactKey: Guid(dd067c9d68fb0d947b696022d39f63b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/YughuesFreeSandMaterials/Preview/T_Checker.tga using Guid(dd067c9d68fb0d947b696022d39f63b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b02e0b20355af26bcb1a7d63545dee') in 0.029001 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 10.011213 seconds.
+  path: Assets/YughuesFreeSandMaterials/Preview/Sc_Preview/Lightmap-0_comp_light.exr
+  artifactKey: Guid(23b45e9506a0f9d42a3d6f7ee2f740c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/YughuesFreeSandMaterials/Preview/Sc_Preview/Lightmap-0_comp_light.exr using Guid(23b45e9506a0f9d42a3d6f7ee2f740c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b011f37bd9005858be8f7d7efe1cfc79') in 0.099034 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Free/Stones/Textures/stones_color.png
+  artifactKey: Guid(0bfc244c6ae5d6c4d98133c14593a8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Free/Stones/Textures/stones_color.png using Guid(0bfc244c6ae5d6c4d98133c14593a8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '435dac1f54a065cdf6fcc58e549c26c7') in 0.025787 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Free/Stones/Textures/stones_normal.png
+  artifactKey: Guid(392ad43b7ad61f040aa99db72f5315f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Free/Stones/Textures/stones_normal.png using Guid(392ad43b7ad61f040aa99db72f5315f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '953b2d1e2b1c4ab71b5ec016b8211d94') in 0.022394 seconds 
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
