@@ -73,6 +73,18 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_3729c39752db4d1fa94257c519bb0922_Texture_1:
+        m_Texture: {fileID: 2800000, guid: b34b9c5fbba78224cba350cfb98efb46, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_8e06fcae50d94ca88391ff98e8c29d12_Texture_1:
+        m_Texture: {fileID: 2800000, guid: b34b9c5fbba78224cba350cfb98efb46, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_8e351c7cd5ab4de5a4b784de1dba7241_Texture_1:
+        m_Texture: {fileID: 2800000, guid: b34b9c5fbba78224cba350cfb98efb46, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -127,5 +139,5 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
     - _WaveDirection: {r: 1, g: 0, b: 0, a: 0}
-    - _color: {r: 0.04485578, g: 0.3989411, b: 0.5660378, a: 0}
+    - _color: {r: 0.24072622, g: 0.66986203, b: 0.8679245, a: 0}
   m_BuildTextureStacks: []
