@@ -11,13 +11,13 @@ C:\Program Files\Unity 2021.3.30f1\Editor\Unity.exe
 -name
 AssetImportWorker2
 -projectPath
-C:/Users/nasta/VisualEffectsOfDepths
+C:/Users/nasta/My project (2)
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-58672
-Successfully changed project path to: C:/Users/nasta/VisualEffectsOfDepths
-C:/Users/nasta/VisualEffectsOfDepths
+63654
+Successfully changed project path to: C:/Users/nasta/My project (2)
+C:/Users/nasta/My project (2)
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,16 +47,16 @@ C:/Users/nasta/VisualEffectsOfDepths
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [16212] Host "[IP] 26.93.114.81 [Port] 0 [Flags] 2 [Guid] 1459444956 [EditorId] 1459444956 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-R8GVPI6) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [40456] Host "[IP] 26.93.114.81 [Port] 0 [Flags] 2 [Guid] 3773681323 [EditorId] 3773681323 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-R8GVPI6) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [16212] Host "[IP] 26.93.114.81 [Port] 0 [Flags] 2 [Guid] 1459444956 [EditorId] 1459444956 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-R8GVPI6) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [40456] Host "[IP] 26.93.114.81 [Port] 0 [Flags] 2 [Guid] 3773681323 [EditorId] 3773681323 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-R8GVPI6) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 106.14 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 136.76 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.30f1 (b4360d7cdac4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.30f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/nasta/VisualEffectsOfDepths/Assets
+[Subsystems] Discovering subsystems at path C:/Users/nasta/My project (2)/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -68,76 +68,76 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2021.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2021.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2021.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56016
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56900
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2021.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007153 seconds.
+Registered in 0.007202 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 96.87 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 148.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.715 seconds
+- Completed reload, in  1.009 seconds
 Domain Reload Profiling:
-	ReloadAssembly (716ms)
-		BeginReloadAssembly (123ms)
+	ReloadAssembly (1009ms)
+		BeginReloadAssembly (203ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (496ms)
-			LoadAssemblies (121ms)
+		EndReloadAssembly (667ms)
+			LoadAssemblies (200ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (121ms)
+			SetupTypeCache (165ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (301ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (397ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (97ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (149ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (131ms)
-				ProcessInitializeOnLoadMethodAttributes (54ms)
+				ProcessInitializeOnLoadAttributes (168ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.016038 seconds.
+Registered in 0.020002 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 90.02 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 97.82 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  1.684 seconds
+- Completed reload, in  1.972 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1685ms)
-		BeginReloadAssembly (103ms)
+	ReloadAssembly (1972ms)
+		BeginReloadAssembly (154ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (1479ms)
-			LoadAssemblies (137ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1697ms)
+			LoadAssemblies (180ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (292ms)
+			SetupTypeCache (337ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (79ms)
-			SetupLoadedEditorAssemblies (950ms)
+			RebuildScriptCaches (95ms)
+			SetupLoadedEditorAssemblies (1082ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (90ms)
-				BeforeProcessingInitializeOnLoad (88ms)
-				ProcessInitializeOnLoadAttributes (705ms)
-				ProcessInitializeOnLoadMethodAttributes (58ms)
+				RefreshPlugins (98ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (823ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -146,12 +146,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5295 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 28 unused Assets / (1.1 MB). Loaded Objects now: 5779.
-Memory consumption went from 305.7 MB to 304.6 MB.
-Total: 3.596900 ms (FindLiveObjects: 0.468300 ms CreateObjectMapping: 0.227700 ms MarkObjects: 2.701400 ms  DeleteObjects: 0.198500 ms)
+Unloading 4723 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (0.7 MB). Loaded Objects now: 5178.
+Memory consumption went from 190.2 MB to 189.5 MB.
+Total: 5.631000 ms (FindLiveObjects: 0.514300 ms CreateObjectMapping: 0.286200 ms MarkObjects: 4.385400 ms  DeleteObjects: 0.442700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -167,466 +167,228 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 648273.863389 seconds.
-  path: Assets/Water/WaveShader.shadergraph
-  artifactKey: Guid(9621230514568fe4db728f4838b0ba32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 691708.906308 seconds.
+  path: Assets/Bubbles/BubbleMaterial.mat
+  artifactKey: Guid(0879cc06b243b9b40896c786cccbbe9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Water/WaveShader.shadergraph using Guid(9621230514568fe4db728f4838b0ba32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c9b37fd7492a05624ca19e6c23606cf') in 0.198366 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 6487.446891 seconds.
-  path: Assets/Exterior_swimming_pool/Scene
-  artifactKey: Guid(5a4284bba7417b7448ffc9f681b6fab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 1
-Start importing Assets/Exterior_swimming_pool/Scene using Guid(5a4284bba7417b7448ffc9f681b6fab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cec0d8b03fc596ac676e90799538e5d') in 0.041366 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 7.439766 seconds.
-  path: Assets/Exterior_swimming_pool/Scene/exterior_swimming_pool.unity
-  artifactKey: Guid(540a5db935df133428936bb1e88fcb99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Exterior_swimming_pool/Scene/exterior_swimming_pool.unity using Guid(540a5db935df133428936bb1e88fcb99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc1a2e9eecb4126c1a1e0e9aedc7eb30') in 0.013978 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 62.448258 seconds.
-  path: Assets/Exterior_swimming_pool/Water
-  artifactKey: Guid(17e234879cb994b7f93d7437c10d23d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Exterior_swimming_pool/Water using Guid(17e234879cb994b7f93d7437c10d23d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b6f9de2b99c492a4aa2cd0ab708d09e') in 0.005888 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.464116 seconds.
-  path: Assets/Exterior_swimming_pool/Textures
-  artifactKey: Guid(e0eeb369e44e6b141a368e8ab874bdd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Exterior_swimming_pool/Textures using Guid(e0eeb369e44e6b141a368e8ab874bdd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c2cdfc9f2d8ffad98fef5ae7577f954') in 0.014550 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.688562 seconds.
-  path: Assets/Exterior_swimming_pool/prefabs
-  artifactKey: Guid(8b46df952f88b1b45aae00231ba6ac51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Exterior_swimming_pool/prefabs using Guid(8b46df952f88b1b45aae00231ba6ac51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab324dcc832fc76b7586e889bbaf373c') in 0.012228 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.686341 seconds.
-  path: Assets/Exterior_swimming_pool/Post_processing
-  artifactKey: Guid(b38d9ffa045f87d4d839943c2fa020de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Exterior_swimming_pool/Post_processing using Guid(b38d9ffa045f87d4d839943c2fa020de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb6018f5e961c92c1448e81a847583d8') in 0.012073 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.144573 seconds.
-  path: Assets/Exterior_swimming_pool/Post_processing/Post_Processor Profile.asset
-  artifactKey: Guid(6394e949156b7dc42befda45f10f072b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Exterior_swimming_pool/Post_processing/Post_Processor Profile.asset using Guid(6394e949156b7dc42befda45f10f072b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac0d952b61c8d3d90c7e33c3102af05b') in 0.064650 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 5.519576 seconds.
-  path: Assets/Exterior_swimming_pool/Documentation
-  artifactKey: Guid(245a614ebd5e00841b0e1d1c609fe5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Exterior_swimming_pool/Documentation using Guid(245a614ebd5e00841b0e1d1c609fe5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c02d2a33fe0787382a5a0db6a57776a') in 0.013466 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 2.151888 seconds.
-  path: Assets/Exterior_swimming_pool/Documentation/Readme.txt
-  artifactKey: Guid(c17a5835a05044648a90ec03ba611c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Exterior_swimming_pool/Documentation/Readme.txt using Guid(c17a5835a05044648a90ec03ba611c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '807fa7ac654aaca4e7b70513b728247f') in 0.051706 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 20.025284 seconds.
-  path: Assets/Exterior_swimming_pool/Materials
-  artifactKey: Guid(e11a35da80f2b914eb15989b77b15783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Exterior_swimming_pool/Materials using Guid(e11a35da80f2b914eb15989b77b15783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4e9819da8b4474cde0a1cf490368da5') in 0.012030 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.041493 seconds.
-  path: Assets/Exterior_swimming_pool/Materials/esp_concrete_black.mat
-  artifactKey: Guid(32f498c36d577454b960180a140f2846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Exterior_swimming_pool/Materials/esp_concrete_black.mat using Guid(32f498c36d577454b960180a140f2846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8a5d053c49f5d8248ec82e020676fc8') in 2.465206 seconds 
+Start importing Assets/Bubbles/BubbleMaterial.mat using Guid(0879cc06b243b9b40896c786cccbbe9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1433bf8a916c077ccbb084ad7cdc934b') in 2.407283 seconds 
 Number of asset objects unloaded after import = 13
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Exterior_swimming_pool/Materials/esp_tile_color1.mat
-  artifactKey: Guid(5cb0816980c0e174580cb104d2bd2a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000051 seconds.
+  path: Assets/Fish/FishMaterial.mat
+  artifactKey: Guid(e0dc71bb9c6710948ac64a5c282e1da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Exterior_swimming_pool/Materials/esp_tile_color1.mat using Guid(5cb0816980c0e174580cb104d2bd2a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '325d57788b3575ad85e4bb9930b82b5e') in 0.047647 seconds 
-Number of asset objects unloaded after import = 6
+Start importing Assets/Fish/FishMaterial.mat using Guid(e0dc71bb9c6710948ac64a5c282e1da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f3695757f61bc97c920cf0e9f36e09') in 1.815802 seconds 
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Exterior_swimming_pool/Meshes
-  artifactKey: Guid(b712435859d58034b82e392eb18b2354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000055 seconds.
+  path: Assets/Sand/Textures/M_YFSM_Sand07.mat
+  artifactKey: Guid(07a9a9609108e4b4caf4730f4f6e0761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Exterior_swimming_pool/Meshes using Guid(b712435859d58034b82e392eb18b2354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feb1a09933c2a417e169685853cc75df') in 0.014526 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Exterior_swimming_pool/Materials/esp_stone_trim_r.mat
-  artifactKey: Guid(d18dd813fa24187448cae03b72c40a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Exterior_swimming_pool/Materials/esp_stone_trim_r.mat using Guid(d18dd813fa24187448cae03b72c40a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '956bff27b9d76e0bd9ae22450170b284') in 0.039291 seconds 
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Exterior_swimming_pool/Materials/esp_metal_bare.mat
-  artifactKey: Guid(9c4e30ec28fc83c40aff3583d7565c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Exterior_swimming_pool/Materials/esp_metal_bare.mat using Guid(9c4e30ec28fc83c40aff3583d7565c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f511c30325071b380735d627398122') in 0.032482 seconds 
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Exterior_swimming_pool/Materials/esp_diving_board.mat
-  artifactKey: Guid(6a94557c64a53994c85c14d34b0604fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Exterior_swimming_pool/Materials/esp_diving_board.mat using Guid(6a94557c64a53994c85c14d34b0604fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e9812700c8e690a842b3f835be09539') in 0.029823 seconds 
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Exterior_swimming_pool/Materials/esp_tile_color3.mat
-  artifactKey: Guid(5cdd7a126a87df74abb970bdfba3664b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Exterior_swimming_pool/Materials/esp_tile_color3.mat using Guid(5cdd7a126a87df74abb970bdfba3664b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da6e0599ce57d7bbe812be3f7551b6a') in 0.025183 seconds 
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Exterior_swimming_pool/Materials/esp_tile_color2.mat
-  artifactKey: Guid(c131595ccd122f44990ee25593292f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Exterior_swimming_pool/Materials/esp_tile_color2.mat using Guid(c131595ccd122f44990ee25593292f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0624feea85f1c0a82a065126a479b856') in 0.030677 seconds 
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Exterior_swimming_pool/Materials/esp_light.mat
-  artifactKey: Guid(74114bcbfafb682428ff66913b90473c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Exterior_swimming_pool/Materials/esp_light.mat using Guid(74114bcbfafb682428ff66913b90473c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34e8fed3f7c88d9d412f5043e05d88e9') in 0.024696 seconds 
+Start importing Assets/Sand/Textures/M_YFSM_Sand07.mat using Guid(07a9a9609108e4b4caf4730f4f6e0761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc5ab0df5405c054f5723ae47da4e9b7') in 1.164393 seconds 
 Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Fish/Materials/fishtex1.mat
+  artifactKey: Guid(70366fca041d1d24fa1f9fad4fe04d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Fish/Materials/fishtex1.mat using Guid(70366fca041d1d24fa1f9fad4fe04d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '686bdc2b677e280a8d8d643cc35de5a1') in 1.333467 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Sand/Textures/M_YFSM_Sand05.mat
+  artifactKey: Guid(9fbbd38626fd1904daa084e924084008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sand/Textures/M_YFSM_Sand05.mat using Guid(9fbbd38626fd1904daa084e924084008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e03af2a8ea82bb6cc35b563d28035c19') in 0.029312 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 23.620852 seconds.
+  path: Assets/Sand/Textures/M_YFSM_Sand10.mat
+  artifactKey: Guid(02e59e8bb6d659f4c85823d2b6745c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sand/Textures/M_YFSM_Sand10.mat using Guid(02e59e8bb6d659f4c85823d2b6745c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd38daea048b0bfb621b449c4d4f62f8a') in 0.052498 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
   path: Assets/Exterior_swimming_pool/Meshes/exterior_swimming_pool.fbx
   artifactKey: Guid(462c2619e4d82cb4ba4a74d473f04b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Exterior_swimming_pool/Meshes/exterior_swimming_pool.fbx using Guid(462c2619e4d82cb4ba4a74d473f04b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff6e3c0c299bd1c5fb78c2f56226213') in 0.642737 seconds 
+Start importing Assets/Exterior_swimming_pool/Meshes/exterior_swimming_pool.fbx using Guid(462c2619e4d82cb4ba4a74d473f04b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '921c682591559a2a45209bf32ebf2970') in 1.248333 seconds 
 Number of asset objects unloaded after import = 199
 ========================================================================
 Received Import Request.
-  Time since last request: 143.680563 seconds.
-  path: Assets/Exterior_swimming_pool/prefabs/exterior_swimming_pool.prefab
-  artifactKey: Guid(494a6bdcc93baf2478bb4b288cbfcd44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 40.190831 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-LightItalic.ttf
+  artifactKey: Guid(5e63515167650a541b309ba3bfd4db3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Exterior_swimming_pool/prefabs/exterior_swimming_pool.prefab using Guid(494a6bdcc93baf2478bb4b288cbfcd44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82566cafcff9ca3f4dbb51fccf545009') in 0.121438 seconds 
-Number of asset objects unloaded after import = 208
-========================================================================
-Received Import Request.
-  Time since last request: 29.089728 seconds.
-  path: Assets/Exterior_swimming_pool/Water/Materials/Water4Advanced.mat
-  artifactKey: Guid(a5f2339f242f6cc41a982ec55ea3c201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Exterior_swimming_pool/Water/Materials/Water4Advanced.mat using Guid(a5f2339f242f6cc41a982ec55ea3c201) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader properties can't be added to this global property sheet. Trying to add _RefractionTex (type 4 count 1)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.Rendering.ScriptableRenderContext:Submit_Internal ()
-UnityEngine.Rendering.ScriptableRenderContext:Submit ()
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.CameraData,bool) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.12/Runtime/UniversalRenderPipeline.cs:446)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.12/Runtime/UniversalRenderPipeline.cs:339)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.12/Runtime/UniversalRenderPipeline.cs:294)
-UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>)
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
-UnityEditor.PreviewRenderUtility:Render (bool,bool)
-UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
-UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[Library/PackageCache/com.unity.render-pipelines.universal@12.1.12/Runtime/UniversalRenderPipeline.cs line 446]
-
-Shader properties can't be added to this global property sheet. Trying to add _RefractionTex_ST (type 2 count 1)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.Rendering.ScriptableRenderContext:Submit_Internal ()
-UnityEngine.Rendering.ScriptableRenderContext:Submit ()
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.CameraData,bool) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.12/Runtime/UniversalRenderPipeline.cs:446)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.12/Runtime/UniversalRenderPipeline.cs:339)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.12/Runtime/UniversalRenderPipeline.cs:294)
-UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>)
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
-UnityEditor.PreviewRenderUtility:Render (bool,bool)
-UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
-UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[Library/PackageCache/com.unity.render-pipelines.universal@12.1.12/Runtime/UniversalRenderPipeline.cs line 446]
-
-Shader properties can't be added to this global property sheet. Trying to add _RefractionTex_TexelSize (type 2 count 1)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.Rendering.ScriptableRenderContext:Submit_Internal ()
-UnityEngine.Rendering.ScriptableRenderContext:Submit ()
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.CameraData,bool) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.12/Runtime/UniversalRenderPipeline.cs:446)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.12/Runtime/UniversalRenderPipeline.cs:339)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.12/Runtime/UniversalRenderPipeline.cs:294)
-UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>)
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
-UnityEditor.PreviewRenderUtility:Render (bool,bool)
-UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
-UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[Library/PackageCache/com.unity.render-pipelines.universal@12.1.12/Runtime/UniversalRenderPipeline.cs line 446]
-
-Shader properties can't be added to this global property sheet. Trying to add _RefractionTex_HDR (type 2 count 1)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.Rendering.ScriptableRenderContext:Submit_Internal ()
-UnityEngine.Rendering.ScriptableRenderContext:Submit ()
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.CameraData,bool) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.12/Runtime/UniversalRenderPipeline.cs:446)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.12/Runtime/UniversalRenderPipeline.cs:339)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.12/Runtime/UniversalRenderPipeline.cs:294)
-UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>)
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
-UnityEditor.PreviewRenderUtility:Render (bool,bool)
-UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
-UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[Library/PackageCache/com.unity.render-pipelines.universal@12.1.12/Runtime/UniversalRenderPipeline.cs line 446]
-
- -> (artifact id: 'e7afeded15b1777ef60df4797763fb53') in 0.038939 seconds 
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Water/WaveMaterial.mat
-  artifactKey: Guid(d74a3dce29f4f9e4497b0bb5a009acf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Water/WaveMaterial.mat using Guid(d74a3dce29f4f9e4497b0bb5a009acf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '564e41692ffb6da3248d7b3dd857db6a') in 0.645200 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.515795 seconds.
-  path: Assets/Water/CausticMaterial.mat
-  artifactKey: Guid(d02fa4468f043304ab89cf4795aab5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Water/CausticMaterial.mat using Guid(d02fa4468f043304ab89cf4795aab5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ed2f67c21819df491ec11b8c8e1f579') in 0.033951 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 76.442848 seconds.
-  path: Assets/Exterior_swimming_pool/Textures/esp_concrete_black.png
-  artifactKey: Guid(9c3496bea4f4da745bc9fd944be0b95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Exterior_swimming_pool/Textures/esp_concrete_black.png using Guid(9c3496bea4f4da745bc9fd944be0b95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c679f980c8e145ddf7ed17e7e21d360d') in 0.236886 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Exterior_swimming_pool/Textures/esp_tile_color2.png
-  artifactKey: Guid(7260a4fae2bbb3a4485112fe62553330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Exterior_swimming_pool/Textures/esp_tile_color2.png using Guid(7260a4fae2bbb3a4485112fe62553330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d8d4c080952314efb992e5683369e6c') in 0.031203 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Exterior_swimming_pool/Textures/esp_stone_trim_r.png
-  artifactKey: Guid(13d77e96d994e414a996ac545b3e7d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Exterior_swimming_pool/Textures/esp_stone_trim_r.png using Guid(13d77e96d994e414a996ac545b3e7d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e3fd5f43f34f618a878ab68a0caa44') in 0.029023 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Exterior_swimming_pool/Textures/esp_Light_01.png
-  artifactKey: Guid(19387c120a5a0e641afbc72a975e7acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Exterior_swimming_pool/Textures/esp_Light_01.png using Guid(19387c120a5a0e641afbc72a975e7acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0de6cb8d06e623c13f29d6e6a8e44ed9') in 0.027598 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 3.629171 seconds.
-  path: Assets/Exterior_swimming_pool/Textures/HEIGHT
-  artifactKey: Guid(74934e0f18172164985a64c884585ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Exterior_swimming_pool/Textures/HEIGHT using Guid(74934e0f18172164985a64c884585ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d1c7cd1c16b2821f7641fa0f01d6288') in 0.011843 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.049717 seconds.
-  path: Assets/Exterior_swimming_pool/Textures/HEIGHT/esp_concrete_floor_height.png
-  artifactKey: Guid(8f2c87bf0ad94a44c9f909d700f6052e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Exterior_swimming_pool/Textures/HEIGHT/esp_concrete_floor_height.png using Guid(8f2c87bf0ad94a44c9f909d700f6052e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39225cec1383d1f24d5269cc6d0a98ec') in 0.028691 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 11.323002 seconds.
-  path: Assets/Exterior_swimming_pool/Textures/esp_concrete_floor.mat
-  artifactKey: Guid(0596ad10596cb114d838ea3895e87095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Exterior_swimming_pool/Textures/esp_concrete_floor.mat using Guid(0596ad10596cb114d838ea3895e87095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a605fa980b12f57a14ee38c1fd7a046e') in 0.041337 seconds 
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Exterior_swimming_pool/Textures/esp_tile_color1.mat
-  artifactKey: Guid(5cb0816980c0e174580cb104d2bd2a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Exterior_swimming_pool/Textures/esp_tile_color1.mat using Guid(5cb0816980c0e174580cb104d2bd2a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc110871c454daf94105abd3e15e9c82') in 0.027058 seconds 
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-LightItalic.ttf using Guid(5e63515167650a541b309ba3bfd4db3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '452ae0cf15accc975e5bcaf7de40f379') in 0.091514 seconds 
 Number of asset objects unloaded after import = 5
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Exterior_swimming_pool/Textures/esp_metal_bare.mat
-  artifactKey: Guid(9c4e30ec28fc83c40aff3583d7565c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000035 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingOcclusion.mat
+  artifactKey: Guid(b51db210fe78df745a372851b3db949e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Exterior_swimming_pool/Textures/esp_metal_bare.mat using Guid(9c4e30ec28fc83c40aff3583d7565c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b494777d851b3e44aca3db0d78e7bde') in 0.028308 seconds 
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Exterior_swimming_pool/Textures/esp_tile_color3.mat
-  artifactKey: Guid(5cdd7a126a87df74abb970bdfba3664b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Exterior_swimming_pool/Textures/esp_tile_color3.mat using Guid(5cdd7a126a87df74abb970bdfba3664b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cf70660f6090510d095fa9221ae4ee4') in 0.023561 seconds 
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Exterior_swimming_pool/Textures/esp_light.mat
-  artifactKey: Guid(74114bcbfafb682428ff66913b90473c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Exterior_swimming_pool/Textures/esp_light.mat using Guid(74114bcbfafb682428ff66913b90473c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88731f10d3d64b36ddf2b38a7ebebe51') in 0.023732 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005160 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Completed reload, in  2.042 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2043ms)
-		BeginReloadAssembly (532ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (43ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (308ms)
-		EndReloadAssembly (1410ms)
-			LoadAssemblies (141ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (322ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (871ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (92ms)
-				ProcessInitializeOnLoadAttributes (702ms)
-				ProcessInitializeOnLoadMethodAttributes (63ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (18ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5162 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 45 unused Assets / (1.4 MB). Loaded Objects now: 5882.
-Memory consumption went from 305.8 MB to 304.4 MB.
-Total: 11.495400 ms (FindLiveObjects: 0.524000 ms CreateObjectMapping: 0.232300 ms MarkObjects: 9.978800 ms  DeleteObjects: 0.759100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 240.164535 seconds.
-  path: Assets/Exterior_swimming_pool/Textures/NORMAL/esp_concrete_floor_nml.png
-  artifactKey: Guid(7216e42129921f741aa5926f3c37bb08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Exterior_swimming_pool/Textures/NORMAL/esp_concrete_floor_nml.png using Guid(7216e42129921f741aa5926f3c37bb08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f2586dccd1ed2f41da4f1e98658307') in 0.272321 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Exterior_swimming_pool/Textures/NORMAL/esp_diving_board_nml.png
-  artifactKey: Guid(f46825c9ebc019a429e7725afda387ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Exterior_swimming_pool/Textures/NORMAL/esp_diving_board_nml.png using Guid(f46825c9ebc019a429e7725afda387ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9a004169ec915bf9c6e3c7f5ff7aa5') in 0.034336 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 5.093514 seconds.
-  path: Assets/Exterior_swimming_pool/Textures/AO/esp_concrete_floor_ao.png
-  artifactKey: Guid(e5d237c1a710430469f8e5c78918cab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Exterior_swimming_pool/Textures/AO/esp_concrete_floor_ao.png using Guid(e5d237c1a710430469f8e5c78918cab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1ff1fe6ffdeda23020c99298f9b179c') in 0.026321 seconds 
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingOcclusion.mat using Guid(b51db210fe78df745a372851b3db949e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '045db06db327a1272853b9c93b25740a') in 0.033302 seconds 
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000027 seconds.
-  path: Assets/Exterior_swimming_pool/Textures/AO/esp_tile_color2_ao.png
-  artifactKey: Guid(e08e693d56f0fb74ca66ee33ff8955f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SimpleLit.mat
+  artifactKey: Guid(6a1143ee683302f4aa628c052723efc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Exterior_swimming_pool/Textures/AO/esp_tile_color2_ao.png using Guid(e08e693d56f0fb74ca66ee33ff8955f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db8db1c60ee13fe73dfa9180fb327e92') in 0.022482 seconds 
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SimpleLit.mat using Guid(6a1143ee683302f4aa628c052723efc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef3ad4406b3c1b3c4c95c1548b5d1cab') in 0.718539 seconds 
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Exterior_swimming_pool/Textures/AO/esp_tile_color1_ao.png
-  artifactKey: Guid(4ad9a09edaab84a4e98465a22b404fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.481979 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat
+  artifactKey: Guid(a97c105638bdf8b4a8650670310a4cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Exterior_swimming_pool/Textures/AO/esp_tile_color1_ao.png using Guid(4ad9a09edaab84a4e98465a22b404fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c35df2999b9e4516cec47f81b5dcc29') in 0.029969 seconds 
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat using Guid(a97c105638bdf8b4a8650670310a4cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fab7868fabb43e8e995f0c775d5b2cc') in 0.021427 seconds 
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Exterior_swimming_pool/Textures/AO/esp_tile_color3_ao.png
-  artifactKey: Guid(f64638fde1634c34ebcf50b1d8de7450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.244159 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/TerrainLit.mat
+  artifactKey: Guid(594ea882c5a793440b60ff72d896021e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Exterior_swimming_pool/Textures/AO/esp_tile_color3_ao.png using Guid(f64638fde1634c34ebcf50b1d8de7450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f84189cb347c65efacedab57dbac6678') in 0.024668 seconds 
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/TerrainLit.mat using Guid(594ea882c5a793440b60ff72d896021e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbb53b29c5be549e531ddd62dae86c85') in 0.975647 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 10.471535 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BlackItalic.ttf
+  artifactKey: Guid(f95147a9bab9fe649b8070170fa7ebd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BlackItalic.ttf using Guid(f95147a9bab9fe649b8070170fa7ebd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f8572e1819e6c55fedb9f0a607a82a') in 0.029884 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Bold.ttf
+  artifactKey: Guid(3750c318f40cab44a97d3a81beaefeb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Bold.ttf using Guid(3750c318f40cab44a97d3a81beaefeb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eb6a08788c83d1e417066b824b8fd73') in 0.038076 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.915972 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Decal.mat
+  artifactKey: Guid(31d0dcc6f2dd4e4408d18036a2c93862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Decal.mat using Guid(31d0dcc6f2dd4e4408d18036a2c93862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8778b5b5d1dff2aa2616bfc5617e241') in 0.021229 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 13.489805 seconds.
+  path: Assets/Stones/Mesh/Stone_1.fbx
+  artifactKey: Guid(0a1cade8f3785a5498483caf954be128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Stones/Mesh/Stone_1.fbx using Guid(0a1cade8f3785a5498483caf954be128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a068d32ece8aeec0afd7952bdd61fa9') in 0.067019 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Fish/RiggedFish.fbx
+  artifactKey: Guid(0cecd6261a8e34c568c7b4b9178b50b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Fish/RiggedFish.fbx using Guid(0cecd6261a8e34c568c7b4b9178b50b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '730dee3e526cb08773562ef8c68a58b8') in 0.167288 seconds 
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 39.781395 seconds.
+  path: Assets/Stones
+  artifactKey: Guid(7359b072d0390b3459f37e3af2c1e7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Stones using Guid(7359b072d0390b3459f37e3af2c1e7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34cac1b99218c2edc37189a49aebca31') in 0.002566 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.190138 seconds.
+  path: Assets/Stones/Materials
+  artifactKey: Guid(2e7c4e14e8ff49d4c93c4048d4ebb780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Stones/Materials using Guid(2e7c4e14e8ff49d4c93c4048d4ebb780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f65f797b4590744cb1eb962df6f923') in 0.011108 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.349118 seconds.
+  path: Assets/Stones/Mesh
+  artifactKey: Guid(c1f996bbe1815ef4eb1a89c8c152e177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Stones/Mesh using Guid(c1f996bbe1815ef4eb1a89c8c152e177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b5e3db5e311b913dadd554398b7d5b2') in 0.009970 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 82.182192 seconds.
+  path: Assets/Stones/Stones.mat
+  artifactKey: Guid(6745167470224e74db37c9f8c2cf4d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Stones/Stones.mat using Guid(6745167470224e74db37c9f8c2cf4d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd5bd093144bd675c465cda4b04eb55') in 0.543721 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 1.258040 seconds.
+  path: Assets/Stones/Textures
+  artifactKey: Guid(bc2d093668c831b4a8514f32f7877985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Stones/Textures using Guid(bc2d093668c831b4a8514f32f7877985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d125a526c011b03436b86809676ef5') in 0.012871 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.080998 seconds.
+  path: Assets/Stones/Textures/stones_color.png
+  artifactKey: Guid(0bfc244c6ae5d6c4d98133c14593a8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Stones/Textures/stones_color.png using Guid(0bfc244c6ae5d6c4d98133c14593a8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd023fd8506e99e9a32f4e452962bbb0b') in 0.026464 seconds 
 Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Stones/Textures/stones_normal.png
+  artifactKey: Guid(392ad43b7ad61f040aa99db72f5315f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Stones/Textures/stones_normal.png using Guid(392ad43b7ad61f040aa99db72f5315f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b32ede81650a820fa188ce293cc694') in 0.022950 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 144.830580 seconds.
+  path: Assets/Stones/Mesh/Stone_1.fbx
+  artifactKey: Guid(0a1cade8f3785a5498483caf954be128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Stones/Mesh/Stone_1.fbx using Guid(0a1cade8f3785a5498483caf954be128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7137a9e1263eefaa492e56c0cc5990cb') in 0.027587 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Stones/Mesh/Stone_3.fbx
+  artifactKey: Guid(e08d894d1a4dca746a9673007d5c706d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Stones/Mesh/Stone_3.fbx using Guid(e08d894d1a4dca746a9673007d5c706d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb07020897ea58faf7def5e961bd713a') in 0.031087 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Stones/Mesh/Stone_5.fbx
+  artifactKey: Guid(1e2ef0cc5c65717479848f40d793d3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Stones/Mesh/Stone_5.fbx using Guid(1e2ef0cc5c65717479848f40d793d3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad269988db0be42c7983168eba313da4') in 0.034279 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Stones/Mesh/Stone_4.fbx
+  artifactKey: Guid(043111edfa1d129478e041d0c2a324c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Stones/Mesh/Stone_4.fbx using Guid(043111edfa1d129478e041d0c2a324c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b26c6afd6c10f6dd3fdc430797f1ede') in 0.030219 seconds 
+Number of asset objects unloaded after import = 12
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
