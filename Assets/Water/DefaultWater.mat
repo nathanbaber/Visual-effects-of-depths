@@ -163,7 +163,7 @@ Material:
     - _OcclusionStrength: 1
     - _OpaqueCullMode: 2
     - _Parallax: 0.005
-    - _PeakSharpness: 0.5
+    - _PeakSharpness: 2
     - _QueueControl: 0
     - _QueueOffset: 0
     - _RayTracing: 0
@@ -198,19 +198,24 @@ Material:
     - _TransparentWritingMotionVec: 0
     - _TransparentZWrite: 0
     - _UseShadowThreshold: 0
-    - _WaveHeight: 1
-    - _WaveLength: 1
+    - _WaveHeight: 2
+    - _WaveLength: 2
     - _WorkflowMode: 1
     - _ZTestDepthEqualForOpaque: 4
     - _ZTestGBuffer: 4
     - _ZTestTransparent: 4
     - _ZWrite: 0
+    - _alpha: 0.85
+    - _alptha: 0.8
+    - _smoothaness: 1
+    - _smoothness: 2
     m_Colors:
     - _BaseColor: {r: 0.17248127, g: 0.6484481, b: 0.8962264, a: 1}
     - _Color: {r: 0.17248127, g: 0.6484481, b: 0.8962264, a: 1}
+    - _Color_1: {r: 0, g: 0, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
-    - _WaveDirection: {r: 1, g: 0, b: 0, a: 0}
+    - _WaveDirection: {r: 1.45, g: 1.29, b: 1.75, a: 0}
     - _color: {r: 0.24072622, g: 0.66986203, b: 0.8679245, a: 0.42745098}
   m_BuildTextureStacks: []

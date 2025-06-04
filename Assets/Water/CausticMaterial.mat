@@ -35,14 +35,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Alpha: 0.687
+    - _Alpha: 0.66
     - _DecalMeshBiasType: 0
     - _DecalMeshDepthBias: 0
     - _DecalMeshViewBias: 0
-    - _Density: -0.23
+    - _Density: 0.14
     - _DrawOrder: 0
-    - _Offset: 1.9
-    - _Power: 4.58
+    - _Offset: 2
+    - _Power: 2.41
     m_Colors:
-    - _Color: {r: 0.8962264, g: 0.79640234, b: 0.71359915, a: 0}
+    - _Color: {r: 0.7778569, g: 0.90366673, b: 0.9433962, a: 0}
   m_BuildTextureStacks: []
