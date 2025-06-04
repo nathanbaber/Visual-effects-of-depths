@@ -16,7 +16,10 @@ To implement the Gerstner wave effect in Unity, you must first create a Lit Shad
 
 ![image](https://github.com/user-attachments/assets/ea8940e9-29b6-4e2a-ab49-412340b7ed0f)
 
+
                                 Image 1 GerstnerWave parameters
+
+
 
 For each wave at each point in the plane, it is necessary to calculate the phase of the wave at point and time t (Fig. 2). Here the notation:
 
@@ -34,11 +37,16 @@ For each wave at each point in the plane, it is necessary to calculate the phase
 
                                Image 2 Gerstner wave formulas
 
+
+
 In order to set the speed or time of movement of the wave tops, you will need a constant equal to the number 2π. In Unity, you need to create a Constant node and set the TAU parameter to it (system number 6.28). Using the Divide node, divide the WaveLenght by 2π. Then you need to enter a gravitational constant to control the speed of the waves. Using the Multiply node, multiply the gravitational constant with the result of dividing the Divide node, extract the square root from the resulting number, and finally multiply by time. This mathematical formula allows you to control the speed of movement of the wave tops (Image 3).
 
 ![image](https://github.com/user-attachments/assets/01232f93-e6ce-4073-bda3-6c125beaad97)
 
                                Image 3 The velocity of the wave peaks of the Gerstner wave
+
+
+   
 
 The phase of the wave depends on the position of the vertex along the direction of propagation of the wave and the current time, taking into account the speed. When subtracting the scalar product from time, a wave is modeled that moves along the direction of the wave at a given speed. In order to allow the phase to "shift" in time and the wave to "ride" on the surface, you will need to create a Position node and set the Space parameter to Object mode. The WaveDirection parameter is a wave direction vector that is normalized using the Normalize node to obtain a unit vector, a vector with length equal to 1 that preserves the direction of the wave. Normalization is necessary in order to further use this vector for calculations related to the direction of the wave (for the scalar product), while avoiding scale distortion due to the length of the vector. Then the result of the Divide node must be connected to input B of the new Multiply node, and the Normalize node must be connected to input A. A Dot Product node is created between the Position and Multiply nodes to calculate the dot product. The value of the Dot Product node is subtracted from the wave velocity using the Substrate node. 
 
@@ -48,6 +56,8 @@ Any implementation of a sea wave uses a sine for horizontal vibrations, creating
 
                                 Image 4 The basis of the Gerstner wave formula
 
+
+
 For a more realistic Gerstner wave effect, it is also necessary to shift the vertices not only vertically (Y-axis), but also horizontally (X and Z axes). This allows you to create the effect of shifting the wave crest, which visually enhances the feeling of a real wave. The sine of the wave phase is used to calculate the horizontal displacement. In this case, the shift occurs along the direction of the wave movement, which is achieved by multiplying the direction vector of the wave by a scalar displacement value (Image 5).
 
 ![image](https://github.com/user-attachments/assets/a870f31e-a274-4c55-bdd1-368e8c8d3660)
@@ -56,12 +66,26 @@ For a more realistic Gerstner wave effect, it is also necessary to shift the ver
 
                                 Image 5 The formula of horizontal displacement
 
+https://github.com/user-attachments/assets/9c0c9120-88c0-4e16-a70d-232d9ccf4c33
+
+
+
+                                the school of fish effect    
+
+
+
 It is necessary to create a Sin node that accepts the input value of the wave phase (the same as used in Cosine). In order to adjust the offset depending on the amplitude of the wave, the Devide node from the Speed block must be connected to input A of the new Multiply node, and input B must be connected to waveHeight.
 Then divide the PeakSharpness by the resulting Multiply value, and multiply the result again by waveHeight. This procedure allows us to obtain a coefficient that scales the horizontal displacement according to the sharpness of the peak and the height of the wave. Using the new Multiply node, you need to multiply the value of the Sin node with the value of the previous node. The wave shifts the peaks along the direction of its movement. Multiplication by the normalized WaveDirection vector allows you to "direct" the horizontal displacement in the right direction. Normalization of the vector is important so that it does not affect the amount of displacement, but only the direction of movement (Image 6).
 
 ![image](https://github.com/user-attachments/assets/a923f212-9388-4ad5-8208-8371c1ac3091)
 
                                 Image 6 Addition of the Gerstner wave formula
+
+
+https://github.com/user-attachments/assets/956741f9-5ffe-4173-a0c3-ac2fff31f567
+
+                                the Gerstner wave effect
+				
 
 In order for the water surface to acquire a more realistic reflection, it is necessary to shift the normals, that is, you need to calculate the derivatives of the displacements obtained in the previous steps and apply them to change the direction of the normals. Both sine and cosine are used to calculate normals in tangent space. To calculate the X and Z components, the sine value must be multiplied by the result of multiplying the first Multiply node from the Sharpness block, then combine this value with the normalized WaveDirection vector and divide it into the X and Z components using the Split node. The Y component is calculated in the same way, but the cosine value is used instead of the sine. This value is then subtracted from one using the One Minus node to "lift" the normal up, reflecting the actual waveform, not just its plane. This adjusts the orientation of the normals for a visually correct reflection. The inputs of the Combine node are connected to the resulting outputs of the One Minus and Split nodes and connected to the Master Node (input Normal) (Image 7).
 
@@ -140,6 +164,10 @@ To begin with, a Position node is created, which provides information about the 
 
                                                 Image 13. Caustics in Shader Graphics
 
+https://github.com/user-attachments/assets/f38996b1-018c-459f-8e51-fe0cf9b208e3
+
+                               the caustic effect      
+
 To demonstrate the caustic effect, you need to save the shader, create a material based on it, and add this material to a Decal object. This shader allows you to create a dynamic and realistic caustic effect that is anchored to an object and animated in time. Using procedural textures such as Voronoi allows you to avoid using static textures and get a more flexible and scalable result. This method is particularly suitable for cases where it is necessary for the caustic to move realistically with the object, for example, when simulating light passing through water on the surface of a moving object. Using decals allows you to project the effect onto existing surfaces without changing their geometry. 
 
 This shader allows you to set the color that is used for caustic highlights, shift the coordinates of the caustic texture to create the illusion of movement, control the frequency of the texture and the contrast of the pattern (Image 14).
@@ -186,11 +214,15 @@ To create a visually appealing and believable bubble, it is necessary to take in
 	First you need to create a Simple Noise node and connect the NoiseScale variable to the input Scale. This controls the size and detail of the noise. Increasing the NoiseScale creates a finer and more detailed noise. Then create a Time node, multiply it by NoiseSpeed using the Multiply node, and add the multiplication result to the UV coordinates of the Simple Noise node to create a noise animation. Shifting UV coordinates over time is a standard technique for animating textures. 
 
 To control the glare intensity, you need to create a Fresnel Effect node. This node calculates the Fresnel effect, which simulates the reflection of light from a surface depending on the viewing angle. A viewing angle close to the tangent gives a stronger reflection. The nodes Normal Vector, View Direction, and the FresnelPower parameter must be connected to the corresponding inputs of the Fresnel Effect node to calculate reflection. The outputs of the Fresnel Effect and Simple Noise nodes are multiplied using the Multiply node to modulate the Fresnel effect noise and create glare on the bubble surface. The output of the Fresnel Effect node is connected to the Alpha Master Node to make the edges of the bubble more transparent and the center more opaque.
-To control the rate of color change, a Time node is created, multiplied by the TimeColor parameter, and the result of the multiplication is connected to the Sine node. The Sine node generates a sine wave that smoothly changes from -1 to 1. Then the Sine node will connect to the Remap node (parameters: In Min = -1; In Max = 1; Out Min = 0; Out Max = 1). Remap converts the range of values to use it for color selection. The Remap output is connected to the Sample Gradient, which takes values from 0 to 1 and is used to select a color from a specified range. To simulate the color and emission of a bubble by noise and the Fresnel effect, it is necessary to multiply the output of the Sample Gradient by the product value. Fresnel Effect and Simple Noise using the Multiply node. The Multiply output is connected to the Base Color and Emission inputs of the Master Node (Image 15).
+To control the rate of color change, a Time node is created, multiplied by the TimeColor parameter, and the result of the multiplication is connected to the Sine node. The Sine node generates a sine wave that smoothly changes from -1 to 1. Then the Sine node will connect to the Remap node (parameters: In Min = -1; In Max = 1; Out Min = 0; Out Max = 1). Remap converts the range of values to use it for color selection. The Remap output is connected to the Sample Gradient, which takes values from 0 to 1 and is used to select a color from a specified range. To simulate the color and emission of a bubble by noise and the Fresnel effect, it is necessary to multiply the output of the Sample Gradient by the product value. Fresnel Effect and Simple Noise using the Multiply node. The Multiply output is connected to the Base Color and Emission inputs of the Master Node (Image 16).
 
 ![image](https://github.com/user-attachments/assets/7e74ac6b-7415-44ea-912b-43be3be0be32)
 
-                                                Image 15. Underwater bubble in Shader Graphics
+                                                Image 16. Underwater bubble in Shader Graphics
+
+https://github.com/user-attachments/assets/7c2a7781-d595-4c19-8998-679cbeff68c9 
+
+                                Underwater Bubble Particle System      
 
 So, a shader that dynamically changes the color of the bubble using a sine wave, noise and Fresnel effect has been created. Now it is necessary to implement a particle system that will create many bubbles in the water. To begin with, a new Particle System object is created and the following parameters are configured:
 
@@ -217,11 +249,11 @@ Module Emission Rate over Time (x = 25): the number of particles emitted per se
 
 * Renderer module: The "Mesh" parameter must be set. Choose a simple sphere as a mesh. Assign the created bubble shader.
 
-By combining two approaches (Shader Graph and Particle System), it turns out to create a convincing simulation of underwater bubbles with dynamically changing colors and realistic behavior. It is also possible to control the rate of color change, the intensity of the Fresnel effect, and adjust the noise and smoothness on the surface of each bubble (Image 16).
+By combining two approaches (Shader Graph and Particle System), it turns out to create a convincing simulation of underwater bubbles with dynamically changing colors and realistic behavior. It is also possible to control the rate of color change, the intensity of the Fresnel effect, and adjust the noise and smoothness on the surface of each bubble (Image 17).
 
 ![image](https://github.com/user-attachments/assets/2342ad0a-87ff-4964-bf69-2c247e7edd81)
 
-                                                Image 16. The finished effect of underwater bubbles using the Particle System
+                                                Image 17. The finished effect of underwater bubbles using the Particle System
 
 # Conclusion
 
