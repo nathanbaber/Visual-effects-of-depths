@@ -223,11 +223,7 @@ To control the rate of color change, a Time node is created, multiplied by the T
 https://github.com/user-attachments/assets/7c2a7781-d595-4c19-8998-679cbeff68c9 
 
                                 Underwater Bubble Particle System      
-
- https://github.com/user-attachments/assets/9c0c9120-88c0-4e16-a70d-232d9ccf4c33
-
-
-                                the school of fish effect       
+   
 
 So, a shader that dynamically changes the color of the bubble using a sine wave, noise and Fresnel effect has been created. Now it is necessary to implement a particle system that will create many bubbles in the water. To begin with, a new Particle System object is created and the following parameters are configured:
 
@@ -259,6 +255,11 @@ By combining two approaches (Shader Graph and Particle System), it turns out to 
 ![image](https://github.com/user-attachments/assets/2342ad0a-87ff-4964-bf69-2c247e7edd81)
 
                                                 Image 17. The finished effect of underwater bubbles using the Particle System
+
+https://github.com/user-attachments/assets/9c0c9120-88c0-4e16-a70d-232d9ccf4c33
+
+
+                                the school of fish effect      
 
 # Conclusion
 
