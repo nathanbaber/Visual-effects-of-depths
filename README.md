@@ -254,7 +254,7 @@ By combining two approaches (Shader Graph and Particle System), it turns out to 
 
 ![image](https://github.com/user-attachments/assets/2342ad0a-87ff-4964-bf69-2c247e7edd81)
 
-                                                Image 17. The finished effect of underwater bubbles using the Particle System
+                                Image 17. The finished effect of underwater bubbles using the Particle System
 
 https://github.com/user-attachments/assets/9c0c9120-88c0-4e16-a70d-232d9ccf4c33
 
