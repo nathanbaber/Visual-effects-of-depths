@@ -66,12 +66,6 @@ For a more realistic Gerstner wave effect, it is also necessary to shift the ver
 
                                 Image 5 The formula of horizontal displacement
 
-https://github.com/user-attachments/assets/9c0c9120-88c0-4e16-a70d-232d9ccf4c33
-
-
-
-                                the school of fish effect    
-
 
 
 It is necessary to create a Sin node that accepts the input value of the wave phase (the same as used in Cosine). In order to adjust the offset depending on the amplitude of the wave, the Devide node from the Speed block must be connected to input A of the new Multiply node, and input B must be connected to waveHeight.
@@ -81,10 +75,6 @@ Then divide the PeakSharpness by the resulting Multiply value, and multiply the 
 
                                 Image 6 Addition of the Gerstner wave formula
 
-
-https://github.com/user-attachments/assets/956741f9-5ffe-4173-a0c3-ac2fff31f567
-
-                                the Gerstner wave effect
 				
 
 In order for the water surface to acquire a more realistic reflection, it is necessary to shift the normals, that is, you need to calculate the derivatives of the displacements obtained in the previous steps and apply them to change the direction of the normals. Both sine and cosine are used to calculate normals in tangent space. To calculate the X and Z components, the sine value must be multiplied by the result of multiplying the first Multiply node from the Sharpness block, then combine this value with the normalized WaveDirection vector and divide it into the X and Z components using the Split node. The Y component is calculated in the same way, but the cosine value is used instead of the sine. This value is then subtracted from one using the One Minus node to "lift" the normal up, reflecting the actual waveform, not just its plane. This adjusts the orientation of the normals for a visually correct reflection. The inputs of the Combine node are connected to the resulting outputs of the One Minus and Split nodes and connected to the Master Node (input Normal) (Image 7).
@@ -112,6 +102,12 @@ After applying a new material based on the Gerstner wave shader, a dynamic water
 ![image](https://github.com/user-attachments/assets/5ef1c4d9-537a-4257-9b2d-4e7eeac720d7)
 
                                 Image 10. The finished Gerstner wave effect
+
+
+https://github.com/user-attachments/assets/956741f9-5ffe-4173-a0c3-ac2fff31f567
+
+                                the Gerstner wave effect
+    
 # Visualization of the caustic effect
 
 Caustics are understood as light patterns that occur when rays meet a curved or uneven surface (for example, water, glass). The rays pass through a transparent medium, refract and create dynamic bright lines or shapes. In the context of developing visual effects for game projects, accurate modeling of the caustic effect significantly increases the realism and visual appeal of scenes that use transparent or reflective materials.
@@ -164,9 +160,7 @@ To begin with, a Position node is created, which provides information about the 
 
                                                 Image 13. Caustics in Shader Graphics
 
-https://github.com/user-attachments/assets/f38996b1-018c-459f-8e51-fe0cf9b208e3
 
-                               the caustic effect      
 
 To demonstrate the caustic effect, you need to save the shader, create a material based on it, and add this material to a Decal object. This shader allows you to create a dynamic and realistic caustic effect that is anchored to an object and animated in time. Using procedural textures such as Voronoi allows you to avoid using static textures and get a more flexible and scalable result. This method is particularly suitable for cases where it is necessary for the caustic to move realistically with the object, for example, when simulating light passing through water on the surface of a moving object. Using decals allows you to project the effect onto existing surfaces without changing their geometry. 
 
@@ -175,6 +169,12 @@ This shader allows you to set the color that is used for caustic highlights, shi
 ![image](https://github.com/user-attachments/assets/6b0e43fe-5778-4630-a1e2-b026d7951c00)
 
                                                 Image 14. The finished caustic effect
+
+https://github.com/user-attachments/assets/f38996b1-018c-459f-8e51-fe0cf9b208e3
+
+                               the caustic effect        
+
+      				
                                                 
 # Underwater effects and their implementation
 
@@ -223,6 +223,11 @@ To control the rate of color change, a Time node is created, multiplied by the T
 https://github.com/user-attachments/assets/7c2a7781-d595-4c19-8998-679cbeff68c9 
 
                                 Underwater Bubble Particle System      
+
+ https://github.com/user-attachments/assets/9c0c9120-88c0-4e16-a70d-232d9ccf4c33
+
+
+                                the school of fish effect       
 
 So, a shader that dynamically changes the color of the bubble using a sine wave, noise and Fresnel effect has been created. Now it is necessary to implement a particle system that will create many bubbles in the water. To begin with, a new Particle System object is created and the following parameters are configured:
 
