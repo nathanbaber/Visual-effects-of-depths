@@ -83,7 +83,8 @@ In order for the water surface to acquire a more realistic reflection, it is nec
 
                                 Image 7. Gerstner waves in Shader Graphics
 
-	After creating and saving the shader, you need to create a new material based on it and add this material to the plane to demonstrate the Gerstner wave effect. This shader allows you to control the direction of the wave, the height of the wave from the lowest point to the crest, the distance between the peaks of the wave and the sharpness of the crest of the wave. Due to the correct displacement of the normals, a visually pleasing result is obtained – the waves deform, creating the illusion of light reflecting from the surface of the waves (Image 8).
+
+After creating and saving the shader, you need to create a new material based on it and add this material to the plane to demonstrate the Gerstner wave effect. This shader allows you to control the direction of the wave, the height of the wave from the lowest point to the crest, the distance between the peaks of the wave and the sharpness of the crest of the wave. Due to the correct displacement of the normals, a visually pleasing result is obtained – the waves deform, creating the illusion of light reflecting from the surface of the waves (Image 8).
 
  ![image](https://github.com/user-attachments/assets/d9b75f4e-ba8b-4e7a-a6de-802df2881d29)
 
